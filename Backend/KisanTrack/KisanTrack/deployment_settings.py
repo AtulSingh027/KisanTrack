@@ -8,6 +8,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 DEBUG = False
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',

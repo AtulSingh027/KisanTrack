@@ -18,7 +18,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -69,6 +68,8 @@ WSGI_APPLICATION = 'KisanTrack.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
+STATIC_ROOT = BASE_DIR/'staticfiles'
 
 DATABASES = {
     'default': {

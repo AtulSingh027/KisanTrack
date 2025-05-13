@@ -1,0 +1,43 @@
+# Node.js dependencies (keep this ignored, as dependencies are installed during deployment)
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables (ensure sensitive data is not committed)
+.env
+.env.local
+.env.*.local
+
+# Build outputs (keep these if your deployment requires pre-built files)
+dist/
+build/
+out/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Miscellaneous
+*.lock
+*.cache
+*.pid
+*.seed
+*.pid.lock
